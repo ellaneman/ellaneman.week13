@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {}
+
+
+
+/*Main*/
+body{
+    font-family: 'Work Sans', sans-serif; 
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none; 
+}
+
+a:hover{
+    color: lightgray;
+}
+
+a img:hover{
+    opacity: .5;
+}
+
+a:hover#menu-icon {
+	opacity: .5;
+
+}
+
+button{
+    border-width: thin;
+    font-family: 'Work Sans', sans-serif; 
+}
+
+button:hover{
+/*    opacity: .4;*/
+    background-color: black;
+    color: white;
+}
+
+
+h3 {
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+u {
+    border-bottom: .5px solid grey;
+    text-decoration: none;
+
+}
+
+h5 {
+    font-family: "raleway";
+    font-size: 30px;   
+    font-style: italic;
+}
+
+h6 {
+    text-align: center
+}
+
+
+
+/*ALLLLL ---->Logo Section*/
+
+.logo{
+    align-content: center;
+    background-color: white;
+    display: block;
+/*    height: 100px;*/
+    margin: 0 auto;
+    padding: 15px 0;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+}
+
+.logoIcon {
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+/*    left: 620px;*/
+    position: relative;
+    width: 87px;
+}
+
+.nameLogo {
+    display: block;
+    font-size: 40px;
+/*    height: 40px;*/
+    margin: 0 auto;
+    /*    left: 390px;*/
+    position: relative;
+    text-align: center;
+    top:10px;
+/*    width: 530px;*/
+}
+
+
+
+/*Home/Work/About --> CONTENT AREA*/
+.homeContent {
+/*    height: 600px;*/
+    background-color: white;
+/*    position: absolute;*/
+    top: 185px;
+    width: 100%;
+}
+
+.textContent {
+/*    INSIDE A H1*/
+    display: block;
+    font-size: 80px;
+    font-weight: 100;
+    height: 50px;
+/*    left: 550px; */
+    margin: 0 auto;
+    margin-top: 360px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+
+.textContent a{
+    margin: 80px;
+    border-bottom: 1px solid black;
+}
+
+.textContent a:hover{
+    border-bottom: 1px solid lightgray;
+}
+
+.videoTxt{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.videoTxt a{
+    border-bottom: 1px solid black;
+}
+
+.videoTxt a:hover{
+    border-bottom: 1px solid lightgray;
+
+}
+
+.video-wrapper{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+audio{
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+}
+
+footer small{
+    float: center;
+    padding: 15px;
+/*    position: absolute;*/
+    bottom: 0;
+}
+
+.footerColor {
+    color: white;
+}
+
+
+/*MEDIA QUIERY **************************************/
+
+
+@media only screen and (max-width : 810px) { 
+
+
+    .homeContent{
+        top: 181px;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .logo{
+        position: absolute;
+    
+    }
+    
+    
+    .logoIcon{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    
+/*
+    .nameLogo{
+        position: relative;
+        text-align: center;
+        font-size: 200%;
+    }
+*/
+    
+   
+
+
+@media only screen and (max-width : 768px){
+
+/*
+    .homeImg{
+        top: 40px;
+    }
+*/
+
+    
+
+/*    .homeContent{*/
+/*
+        top: 490px;
+    }
+*/
+    
+    
+    .nameLogo{
+        position: relative;
+        text-align: center;
+/*        font-size: 200%;*/
+    }
+    
+/*
+    .gallery {
+        height: 290%;
+        max-width: 100%;
+    }
+*/
+  
+    
+  
+
+@media only screen and (max-width : 550px){
+   
+/*
+    .homeImg{
+        top: 50px;
+    }
+
+*/
+/*    .homeContent{*/
+/*        top: 432px;*/
+/*    }*/
+
+@media only screen and (max-width : 414px) {
+
+/*
+    .homeImg{
+        top: 60px;
+    }
+*/
+  
+    
+/*    .homeContent{*/
+/*
+        top: 365px;
+    }
+*/
+    
+   
+  
+    
+   
+    
+    img {
+        width: 100%;
+    }   
+    
+    
+    .logo{
+        position: absolute;
+    }    
+    
+    .logoIcon{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    
+    .nameLogo{
+        position: relative;
+        text-align: center;
+        font-size: 180%;
+    }
+
+  
+
+
+@media only screen and (max-width : 375px){
+
+    
+/*
+    .homeImg{
+        top: 70px;
+    }
+*/
+
+    
+/*    .homeContent{*/
+/*        top: 361px;*/
+/*    }*/
+    
+
+    
+    img {
+        width: 100%;
+    }
+    
+    .logo{
+        position: absolute;
+    }    
+    
+    .logoIcon{
+        display: block;
+        position: relative;
+        text-align: center;
+/*        width: 18%;*/
+    }
+    
+    .nameLogo{
+        position: relative;
+        text-align: center;
+        font-size: 165%;
+    }
+    
